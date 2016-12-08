@@ -1,5 +1,5 @@
 # ignore output folder
-output
+# output
 
 # ignore node_moduels
 node_modules

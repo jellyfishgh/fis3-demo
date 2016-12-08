@@ -1,0 +1,17 @@
+{
+    "res": {
+        "static/lib/base.js": {
+            "uri": "/static/static/lib/base.js",
+            "type": "js"
+        },
+        "widget/nav/nav.css": {
+            "uri": "/static/widget/nav/nav.css",
+            "type": "css"
+        },
+        "widget/nav/nav.js": {
+            "uri": "/static/widget/nav/nav.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}
