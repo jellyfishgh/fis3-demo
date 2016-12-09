@@ -1,0 +1,1 @@
+define("static/hello/src/main",["static/hello/src/spinning"],function(n){var i=n("static/hello/src/spinning"),e=new i("#container");e.render()});

@@ -1,4 +1,3 @@
-
 // npm install [-g] fis3-hook-amd
 fis.hook('amd');
 
@@ -14,7 +13,7 @@ fis.match('::package', {
         resourceType: 'amd',
         useInlineMap: true // 资源映射表内嵌
     })
-})
+});
 
 // fis3 release prod 产品发布，进行合并
 fis.media('prod')

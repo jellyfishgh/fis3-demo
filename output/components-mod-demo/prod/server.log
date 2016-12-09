@@ -1,0 +1,11 @@
+ Listening on http://127.0.0.1:8080
+127.0.0.1 - GET / HTTP/1.1 200 1948 - 17.475 ms
+127.0.0.1 - GET /static/aio.css HTTP/1.1 200 24899 - 9.659 ms
+127.0.0.1 - GET /static/aio.js HTTP/1.1 200 159814 - 8.078 ms
+127.0.0.1 - GET /components/jquery-ui/themes/base/images/ui-bg_flat_75_ffffff_40x100.png HTTP/1.1 200 178 - 2.642 ms
+127.0.0.1 - GET /components/jquery-ui/themes/base/images/ui-bg_glass_65_ffffff_1x400.png HTTP/1.1 200 105 - 2.025 ms
+127.0.0.1 - GET /components/jquery-ui/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png HTTP/1.1 200 101 - 6.982 ms
+127.0.0.1 - GET /components/jquery-ui/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png HTTP/1.1 200 110 - 2.979 ms
+127.0.0.1 - GET /components/jquery-ui/themes/base/images/ui-bg_glass_75_dadada_1x400.png HTTP/1.1 200 111 - 1.308 ms
+127.0.0.1 - GET /tabs.html HTTP/1.1 200 41 - 1.502 ms
+ Recive quit signal in worker 4407.

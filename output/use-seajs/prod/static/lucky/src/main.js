@@ -1,0 +1,1 @@
+document.attachEvent&&alert("这个例子不支持 Old IE 哦"),define("static/lucky/src/main",["static/lucky/src/data","static/lucky/src/lucky"],function(c){var t=c("static/lucky/src/data"),a=c("static/lucky/src/lucky");a.init(t)});

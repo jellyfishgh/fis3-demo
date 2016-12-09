@@ -7,7 +7,7 @@ use-react
 ```
 npm install -g fis3-postpackager-loader
 npm install -g fis3-hook-commonjs
-npm install -g fis-parser-babel-5.x
+npm install -g fis-parser-babel-6.x
 ```
 
 ## 从组件生态安装 react

@@ -1,0 +1,1 @@
+define("static/todo/src/main",["sea-modules/gallery/backbone/1.0.0/backbone","static/todo/src/views/app","static/todo/src/routers/router"],function(t){var o=t("sea-modules/gallery/backbone/1.0.0/backbone"),e=t("static/todo/src/views/app"),s=t("static/todo/src/routers/router");new s,o.history.start(),new e});

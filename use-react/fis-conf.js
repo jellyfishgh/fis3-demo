@@ -4,7 +4,8 @@ fis.match('{app.jsx,/node_modules/**.js}', {
 
 fis.hook('commonjs');
 fis.hook('node_modules', {
-    'shimProcess': false
+    'shimProcess': false,
+    isMod: true
 })
 
 fis.match('::package', {

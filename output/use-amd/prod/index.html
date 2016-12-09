@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AMD</title>
+    
+</head>
+<body>
+    <p> Hello, World. </p>
+    <button id="btn">load async js</button>
+<script type="text/javascript" src="/static/aio.js"></script>
+<script type="text/javascript">/*resourcemap*/
+
+
+        require(['comp/1-0/1-0'], function() {
+          var btn = document.getElementById('btn');
+          var handler = function() {
+            require(['comp/2-0/2-0']);
+          };
+
+          if (btn.addEventListener) {
+            btn.addEventListener('click', handler);
+          } else {
+            btn.attachEvent('click', handler);
+          }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+define("static/todo/src/models/todo",["sea-modules/gallery/backbone/1.0.0/backbone"],function(e,o,t){var l=e("sea-modules/gallery/backbone/1.0.0/backbone"),a=l.Model.extend({defaults:{title:"",completed:!1},toggle:function(){this.save({completed:!this.get("completed")})}});t.exports=a});
